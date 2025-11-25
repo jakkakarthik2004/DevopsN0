@@ -1,0 +1,12 @@
+body{font-family:Inter, system-ui, Arial; padding:20px; background:#f7f7f8}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.form{display:flex;flex-direction:column}
+.form input, .form textarea{padding:8px;margin-bottom:10px;border:1px solid #ddd;border-radius:4px}
+.form .actions{display:flex;gap:8px}
+.items{list-style:none;padding:0}
+.items li{padding:10px;border-bottom:1px solid #eee}
+.item-head{display:flex;justify-content:space-between;align-items:center}
+.actions button{margin-left:8px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center}
+.modal-content{background:#fff;padding:16px;border-radius:6px;width:90%;max-width:480px}
